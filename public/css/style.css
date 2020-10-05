@@ -1,0 +1,205 @@
+html, body {
+	margin: 0 auto;
+}
+
+body {
+	background-color: #222222;
+}
+
+#header {
+	background-color: #E8A81E;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#footer {
+	background-color: #E8A81E;
+	width: 100%;
+	padding-top: 5px;
+}
+
+#hometab {
+	margin-left: 80px;
+	font-size: 18px;
+	color: #222222;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#hometab:hover {
+	color: #ffffff;
+}
+
+#hometab:focus {
+	color: #ffffff;
+}
+
+#infotab {
+	margin-left: 30px;
+	font-size: 18px;
+	color: #222222;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#infotab:hover {
+	color: #ffffff;
+}
+
+#infotab:focus {
+	color: #ffffff;
+}
+
+#callstab {
+	margin-left: 30px;
+	font-size: 18px;
+	color: #222222;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#callstab:hover {
+	color: #ffffff;
+}
+
+#callstab:focus {
+	color: #ffffff;
+}
+
+#shndlink {
+	float: right;
+	margin-right: 80px;
+	margin-top: -3px;
+	height: 30px;
+	background-color: #D3CFCB;
+	border-radius: 12px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  float: left;
+  margin-top: -2px;
+  background-color: #111;
+  padding-top: 50px;
+  padding-bottom: 205px;
+  border: 2px solid #E8A81E;
+}
+
+.sidenav a {
+  padding: 6px 38px 36px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #E8A81E;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#shndlogo {
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+}
+
+#shndtitle {
+	color: #E8A81E;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#shndslogan {
+	margin-top: -15px;
+	text-align: center;
+	color: gray;
+}
+
+#label {
+	position: absolute;
+	margin-top: 10px;
+	color: white;
+	font-size: 25px;
+}
+
+#label2 {
+	position: absolute;
+	margin-top: 20px;
+	color: white;
+	font-size: 25px;
+}
+
+#label3 {
+	position: absolute;
+	margin-top: 30px;
+	color: white;
+	font-size: 25px;
+}
+
+#label4 {
+	position: absolute;
+	margin-top: 40px;
+	color: white;
+	font-size: 25px;
+}
+
+#label5 {
+	position: absolute;
+	margin-top: 50px;
+	color: white;
+	font-size: 25px;
+}
+
+#label6 {
+	position: absolute;
+	margin-top: 60px;
+	color: white;
+	font-size: 25px;
+}
+
+#homeinfo {
+	margin-top: -149px;
+	margin-left: -2px;
+	height: 500px;
+	width: 700px;
+	color: gray;
+	background-color: #565452;
+	padding-top: 20px;
+	padding-bottom: 42px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+}
+
+#githublink {
+	height: 40px;
+	width: 90px;
+}
+
+/* Media screen portrait */
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
+	html, body {
+		margin: 0 auto;
+		width: 768px;
+	}
+	
+	#footer {
+		margin-top: 38px;
+	}
+}
+
+/*Media screen landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1285px) and (orientation : landscape) {
+	html, body {
+		margin-bottom: 0px;
+		height: 100%;
+	}
+}

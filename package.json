@@ -1,21 +1,28 @@
 {
   "name": "shndcoin-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "StrongHands (SHND) API",
   "main": "index.js",
   "scripts": {
     "server": "nodemon server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "stronghands",
+    "shnd",
+    "coin",
+    "api",
+    "rpc"
+  ],
   "author": "Fedda BootStrap",
-  "license": "SHC",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "request": "^2.88.0"
+    "request": "^2.88.2",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.4"
   }
 }

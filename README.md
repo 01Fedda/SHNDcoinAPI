@@ -1,5 +1,7 @@
-# SHNDcoin API
+# StrongHands (SHND) coin API
 
-API to build web applications.  
-  
-Simple API that sends HTTP requests using RPC commands.
+Simple API that does HTTP requests using RPC commands.
+
+SHND Port Info:
+-- P2P = 29001
+-- RPC = 29002
